@@ -1,0 +1,458 @@
+﻿/*
+**********************************************
+    Set default Styles for the entire site
+**********************************************
+*/
+    body 
+    {
+        background-color: #663300;
+        /*
+        background-image: url(images/chocolate_background.jpg);
+        background-attachment: fixed;
+        */
+    }
+    a:link
+    {
+	    text-decoration: underline;
+	    color: #000000;
+	    background: transparent;
+    }
+    a:visited
+    {
+	    text-decoration: underline; 
+	    color: #000000; 
+	    background: transparent;
+    }
+    a:hover
+    {
+	    text-decoration: none; 
+        color:#FFCC66;
+        background-color: #663300;
+    }
+    a:focus
+    {
+	    text-decoration: none; 
+        color:#FFCC66;
+        background-color: #663300;
+    }
+    a:active
+    {
+	    text-decoration: none; 
+	    color: #600; 
+	    background: transparent;
+    }
+    .photoCredits
+    {
+        font-size: x-small;
+        font-style: italic;
+    }
+/* END Default Styles for Entire Site */
+
+
+/*
+**********************************************
+    Set Styles for the Master Sheet
+**********************************************
+*/
+div.tabbed-menu {
+    font-family: "Helvetica";
+    font-size: 15px;
+    /*width: 600px;*/
+    text-align: center;
+}
+
+/*  This ul class defines how your menu options
+    will be arranged and also gives us a nice 
+    dividing line between the menu and the content. */
+ul.tabs {
+    text-align: center;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+ul.tabs a {
+    color: #FFCC66;  
+}
+ul.tabs a:hover {
+    color:#FFCC66;
+    background-color: #0080C0;       
+}
+/*  This defines the look of the individual tabs of 
+    your menu when they are contained in a tabs class ul */
+ul.tabs li {
+    margin-bottom: -1px;
+    padding: 3px 10px 0 10px;
+    border: 1px solid #DDDDDD;
+    background-color: #663300;
+	color:#FFCC66;
+    
+    /*  inline-block tells the browser to arrange the list
+        elements in a line rather than each element on its
+        own line. */
+    display: inline-block;
+    
+    /* The attributes here round the top left
+        and right corners of the tabs. */
+    border-top-left-radius: 6px; 
+    border-top-right-radius: 6px;
+}
+/* This defines what a tab should look like when selected */
+ul.tabs li.selected {
+    background: #FFF;
+    color: #0080C0;
+    border-bottom-color: transparent;
+}
+ul.tabs li.selected a {
+    background: #FFF;
+    color: #0080C0;
+    border-bottom-color: transparent;
+}
+/* This defines how a tab looks when your mouse hovers above it */
+ul.tabs li:hover {
+    color: #FFCC66;
+    cursor: pointer;
+    background: #0080C0;
+}
+ul.sub-tabs {
+	text-align: center;
+    list-style: none;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    color: #0088CC;    
+}
+
+/*  This defines the look of the individual tabs of 
+    your menu when they are contained in a tabs class ul */
+ul.sub-tabs li {
+    margin-bottom: -1px;
+    padding: 3px 10px 0 10px;
+    border: 1px solid #DDDDDD;    
+    background-color: #663300;
+	color:#FFCC66;
+	display: block;
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0;
+}
+ul.sub-tabs li.bottom {
+    /* The attributes here round the bottom left
+    and right corners of the tabs. */
+	border-bottom-left-radius: 6px; 
+    border-bottom-right-radius: 6px;
+}
+/* This defines what a tab should look like when selected */
+ul.sub-tabs li.selected {
+    background: #FFF;
+    color: #0080C0;
+    border-bottom-color: transparent;
+}
+ul.sub-tabs li.selected a {
+    background: #FFF;
+    color: #0080C0;
+    border-bottom-color: transparent;
+}
+/* This defines how a tab looks when your mouse hovers above it */
+ul.sub-tabs li:hover {
+    color: #FFCC66;
+    cursor: pointer;
+    background: #0080C0;
+}
+div.page {
+    text-align: center;
+    display: block;
+    background-color: #FFF;
+}
+        /* END Styles & "Code" for Navigation Menu */
+    .hoverStyle
+    {
+         color:#99CCCC;
+         background-color: #663300;
+    }
+    .center
+    {
+        text-align: center;
+    }
+    #mainTable {
+        width: 100%;
+    }
+    #masterLeftColumn {
+        width: 18%; 
+        vertical-align: top;
+        display: inline-block;
+        float: left;
+        padding: 5px;
+        margin: 5px;
+    }
+    #masterMainColumn {
+        width: 80%;
+        vertical-align: top;
+        display: inline-block;
+        float: right;
+    }
+    #twitterBadgeOnly {
+        text-align: center;
+        border-radius: 15px;
+    }
+    #twitterBadge_Tweets {
+        border-radius: 15px;
+    }
+    .footer
+    {
+        clear: both;
+        color: #99CCCC;
+        font-family: Verdana;
+        font-size: x-small;
+        text-align: center;
+    }
+        .footerH1
+        {
+            font-family: 'Monotype Corsiva';
+            text-align: center;
+            color: #FFCC66;
+        }
+            .footerH1:link
+            {
+	            text-decoration: underline; 
+	            color: #FFCC66; 
+	            background: transparent;
+            }
+            .footerH1:visited
+            {
+	            text-decoration: underline; 
+	            color: #FFCC66; 
+	            background: transparent;
+            }
+            .footerH1:hover
+            {
+	            text-decoration: underline; 
+	            color: #99CCCC; 
+	            background: transparent;
+            }
+            .footerH1:focus
+            {
+	            text-decoration: underline; 
+	            color: #99CCCC; 
+	            background: transparent;
+            }
+            .footerH1:active
+            {
+	            text-decoration: none; 
+	            color: #99CCCC; 
+	            background: transparent;
+            }
+    .imageLeft
+    {
+        float: left;
+        margin: 5px;
+    }
+    .border
+    {
+        border: ridge medium #FFFFFF;
+        border-radius: 5px;
+    }
+/* END Styles for Master Sheet */
+
+
+/*
+**********************************************
+    Set Styles for the Default Page
+**********************************************
+*/
+.mainPageStyle
+{
+    padding: 5px;
+    background-color: #663300;
+    color: #000000;
+    font-family: Calibri;
+}
+#headBanner {
+    border: 1px groove black;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+    .banner
+    {
+        text-align: center;
+        text-decoration: underline;
+        color: Black;
+    }
+        .bannerHoliday {
+            color: Teal;
+        } 
+    .holidayFont
+    {
+        font-family: 'Lucida Calligraphy';
+        color: #008000;
+    }
+        .holidayFont H3
+        {
+            color: Fuchsia;
+        }
+        .holidayFont a:link
+        {
+	        text-decoration: underline;
+	        color: Red;
+	        background: transparent;
+        }
+        .holidayFont a:visited
+        {
+	        text-decoration: none; 
+	        color: Red;
+	        background: transparent;
+        }
+        .holidayFont a:hover
+        {
+	        text-decoration: none; 
+            color:#FFCC66;
+            background-color: #663300;
+        }
+        .holidayFont a:focus
+        {
+	        text-decoration: underline; 
+	        color: #0080C0; 
+	        background: transparent;
+        }
+        .holidayFont a:active
+        {
+	        text-decoration: none; 
+	        color: #0080C0; 
+	        background: transparent;
+        }
+.divClear
+{
+    width: 100%;
+    clear:both;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    border: 1px groove black;
+    border-radius: 15px;
+    padding: 5px;
+    float: left;
+    
+}
+    .tableLeftColumn, .tableCenterColumn, .tableRightColumn {
+        display: inline;
+        float: left;
+        vertical-align: top;
+    }
+    .tableLeftColumn
+    {
+        width: 33%; 
+    }
+        #googlePlus, #facebook{
+            text-align: center;
+        }
+    .tableCenterColumn
+    {
+         width: 33%;
+    }
+
+/* END Styles for Default Page */
+
+
+/*
+**********************************************
+    Set Styles for the Suppliers Page
+**********************************************
+*/
+.suppliersPageStyle
+{
+    padding: 5px;
+    border: 1px groove black;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Calibri;
+}
+#supplierH1 {
+    text-align: center;
+}
+.supplierHeadings
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.centerExternalSiteLinks {
+    text-align: center;
+}
+.supplierCallOut
+{
+    color: #FF0000;
+    font-style: italic;
+}
+.caption
+{
+    caption-side:bottom;
+}
+/* END Styles for Suppliers Page */
+
+
+/*
+**********************************************
+    Set Styles for the About Page
+**********************************************
+*/
+#aboutPageTop, #aboutPageBottom {
+    border: 1px groove black;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    float: left;
+    padding: 15px;
+    margin: 5px;
+
+}
+.aboutImage
+{
+    float:left;
+    margin: 5px;
+}
+.aboutImageRight
+{
+    float: right;
+    margin: 5px;
+}
+.aboutUL
+{
+    margin-left: 140px;
+}
+.aboutSubUL
+{
+    list-style: circle inside;
+}
+.aboutDitaColumn
+{
+    width: 50%;
+    vertical-align: top;
+    float: left;
+}
+/* END Styles for About Page */
+
+/*
+**********************************************
+    Set Styles for the Special Orders Page
+**********************************************
+*/
+.centerTable {
+    text-align: center;
+    /*Setting margins to auto & setting a width to <100% gives us a centered block */
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+/* END Styles for Special Orders Page */
+
+/*
+**********************************************
+    Set Styles for the Directions Page
+**********************************************
+*/
+#googleMap {
+    border: 1px double #FFFFFF;
+}
+/* END Styles for Directions Page */

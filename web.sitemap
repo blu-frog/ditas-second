@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="Dita's Chocolates - Home"  description="The home page of Dita's Chocolates.">
+        <siteMapNode url="~/about.aspx" title="Dita's Chocolates - About Us"  description="About Dita's Chocolates." />
+        <siteMapNode url="~/contact.aspx" title="Dita's Chocolates - Contact Us"  description="How to get in contact with Dita's Chocolates." />
+        <siteMapNode url="~/directions.aspx" title="Dita's Chocolates - Directions" description="Directions and maps to find Dita's Chocolates." />
+        <siteMapNode url="~/sitemap.aspx" title="Dita's Chocolates - Site Map" description="Displays all available pages of the Dita's Chocolates website." />
+        <siteMapNode url="~/suppliers.aspx" title="Dita's Chocolates - Our Products" description="Information on the products Dita's Chocolates carries in stock." />
+    </siteMapNode>
+</siteMap>
